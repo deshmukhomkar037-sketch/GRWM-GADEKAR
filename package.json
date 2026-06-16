@@ -1,0 +1,16 @@
+{
+  "name": "grwm-gadekar-backend",
+  "version": "1.0.0",
+  "description": "Complete single-file Node.js backend for GRWM Gadekar (products, auth, cart, wishlist, orders, coupons, newsletter, admin APIs)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
